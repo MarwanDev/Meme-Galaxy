@@ -25,7 +25,8 @@
   border: none;
   gap: 5px;
 
-  &:nth-child(4n - 1), &:nth-child(4n - 2) {
+  &:nth-child(4n - 1),
+  &:nth-child(4n - 2) {
     background-color: #4063a5;
   }
 
@@ -39,7 +40,7 @@
 }
 
 .meme-name {
-  background-color: rgb(#000, 0);
+  background-color: rgba(0, 0, 0, 0);
   text-align: center;
   color: #fff;
 }
