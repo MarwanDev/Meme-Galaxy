@@ -1,4 +1,45 @@
+.details-header {
+  padding: 15px 10px;
+  background-color: #5288e2;
+  border-top: 1px solid #5288e2;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.meme-container {
+  background-color: #4369b0;
+  padding: 7px;
+  width: calc(50% - 0px);
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 5px;
+
+  &:nth-child(4n - 1), &:nth-child(4n - 2) {
+    background-color: #4063a5;
+  }
+
+  img {
+    width: calc(100px + 10px);
+    height: calc(100px + 10px);
+    align-self: center;
+    margin: auto;
+    border-radius: 5px;
+  }
+}
+
+.meme-name {
+  background-color: rgb(#000, 0);
+  text-align: center;
+  color: #fff;
 }

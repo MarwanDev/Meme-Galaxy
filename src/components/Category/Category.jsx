@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 const Category = ({ itemId, name, thumbnail, onClick }) => {
   return (
     <div
-      // type="button"
       style={{
         textDecoration: "none",
         display: "flex",
@@ -12,7 +11,6 @@ const Category = ({ itemId, name, thumbnail, onClick }) => {
         alignItems: "center",
       }}
       href=""
-      // to="/details"
       id={itemId}
       onClick={onClick}
     >

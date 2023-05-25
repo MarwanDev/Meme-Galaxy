@@ -1,20 +1,26 @@
 import MenuIcon from "@mui/icons-material/Menu";
 import MicIcon from "@mui/icons-material/Mic";
 import SettingsIcon from "@mui/icons-material/Settings";
+import propTypes from "prop-types";
 import "./Navbar.scss";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
-  // console.log(window.location.href);
+const Navbar = ({ isDetailPage, pageTitle }) => {
   const displayArrow = () => (
-    <ArrowBackIosNewIcon
-      style={{ color: "#fff", backgroundColor: "#4369b2" }}
-    />
+    <Link to="/" style={{textDecoration: 'none', border: 'none', backgroundColor: '#4369b2', paddingTop: 3}}>
+      <ArrowBackIosNewIcon
+        style={{ color: "#fff", backgroundColor: "#4369b2" }}
+      />
+    </Link>
+  );
+  const displayMenu = () => (
+    <MenuIcon style={{ color: "#fff", backgroundColor: "#4369b2" }} />
   );
   return (
     <nav className="navbar-container">
-      {window.location.href !== "http://localhost:5173/" && displayArrow()}
-      <MenuIcon style={{ color: "#fff", backgroundColor: "#4369b2" }} />
+      {isDetailPage && displayArrow()}
+      {!isDetailPage && displayMenu()}
       <h1
         style={{
           color: "#fff",
@@ -25,7 +31,7 @@ const Navbar = () => {
           backgroundColor: "#4369b2",
         }}
       >
-        meme galaxy
+        {pageTitle}
       </h1>
       <MicIcon
         style={{
@@ -37,6 +43,16 @@ const Navbar = () => {
       <SettingsIcon style={{ color: "#fff", backgroundColor: "#4369b2" }} />
     </nav>
   );
+};
+
+Navbar.propTypes = {
+  isDetailPage: propTypes.bool,
+  pageTitle: propTypes.string,
+};
+
+Navbar.defaultProps = {
+  isDetailPage: false,
+  pageTitle: "all memes stat",
 };
 
 export default Navbar;

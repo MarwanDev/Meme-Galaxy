@@ -16,6 +16,38 @@ const initialState = {
   box: 0,
   isLoading: false,
   error: null,
+  categoriesArray: [
+    {
+      itemId: 1,
+      name: "Mr Basterma",
+      thumbnail: "😂",
+    },
+    {
+      itemId: 2,
+      name: "Mr Bala7",
+      thumbnail: "🤣",
+    },
+    {
+      itemId: 3,
+      name: "Mr Betengana",
+      thumbnail: "🤡",
+    },
+    {
+      itemId: 4,
+      name: "Mrs Basterma",
+      thumbnail: "😅",
+    },
+    {
+      itemId: 5,
+      name: "Mrs Bala7",
+      thumbnail: "😎",
+    },
+    {
+      itemId: 0,
+      name: "All Memes",
+      thumbnail: "🤑  ",
+    },
+  ],
 };
 
 export const memesSlice = createSlice({
@@ -24,8 +56,7 @@ export const memesSlice = createSlice({
   reducers: {
     changeBox: (state, action) => {
       state.box = action.payload;
-      console.log(state.box);
-    }
+    },
   },
   extraReducers: (builder) => {
     builder.addCase(fetchMemes.pending, (state) => {
