@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchMemes } from "../../redux/memesSlice/memesSlice";

@@ -1,4 +1,6 @@
-// import { Navbar, Header, Categories } from "./components";
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Layout } from './components';
 
