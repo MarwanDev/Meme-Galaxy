@@ -25,7 +25,7 @@
 
 # 📖 [MEME-GALAXY] <a name="about-project"></a>
 
-**[Meme Galaxy]** is a project between <b>Meme Galaxy</b>
+**Meme Galaxy** is a single-page app built using React JS and Vite whose aim is to display different memes with differenct categories accodrding to data fetched from <b>imgflip API.</b> Further information is available in the <a href="https://drive.google.com/file/d/1eZNRTECZUpxfykamc0erwobgSFsP5tY5/view?usp=sharing">video presentation</a>
 ## 🛠 Built With <a name="built-with"> React JS</a>
 
 ## 🛠 Built With <a name="built-with"></a>
