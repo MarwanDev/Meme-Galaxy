@@ -2,6 +2,7 @@
 
 exports[`Category > renders each category correctly 1`] = `
 <div
+  className="category-container"
   href=""
   id={null}
   onClick=""
@@ -10,10 +11,27 @@ exports[`Category > renders each category correctly 1`] = `
       "alignItems": "center",
       "display": "flex",
       "flexDirection": "column",
-      "textDecoration": "none",
     }
   }
 >
+  <svg
+    aria-hidden={true}
+    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+    data-testid="ArrowCircleRightOutlinedIcon"
+    focusable="false"
+    style={
+      {
+        "alignSelf": "flex-end",
+        "color": "#fff",
+        "textAlign": "end",
+      }
+    }
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+    />
+  </svg>
   <a
     className=""
     href="/details"
@@ -29,7 +47,10 @@ exports[`Category > renders each category correctly 1`] = `
   <h6
     style={
       {
+        "alignSelf": "flex-end",
         "color": "#fff",
+        "marginTop": 4,
+        "textAlign": "right",
         "textDecoration": "none",
       }
     }

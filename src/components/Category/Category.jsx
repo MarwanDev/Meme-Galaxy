@@ -1,14 +1,14 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import ReactDOM from 'react-dom';
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
+import "./Category.scss";
+import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 
 const Category = ({ itemId, name, thumbnail, onClick }) => {
   return (
     <div
       style={{
-        textDecoration: "none",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -16,11 +16,18 @@ const Category = ({ itemId, name, thumbnail, onClick }) => {
       href=""
       id={itemId}
       onClick={onClick}
+      className="category-container"
     >
-      <NavLink to="/details" id={itemId} onClick={onClick} style={{ fontSize: 60, textDecoration: 'none' }}>
+      <ArrowCircleRightOutlinedIcon style={{color: "#fff", textAlign: 'end', alignSelf: 'flex-end'}} />
+      <NavLink
+        to="/details"
+        id={itemId}
+        onClick={onClick}
+        style={{ fontSize: 60, textDecoration: "none" }}
+      >
         {thumbnail}
       </NavLink>
-      <h6 style={{ textDecoration: "none", color: "#fff" }}>{name}</h6>
+      <h6 style={{ textDecoration: "none", color: "#fff", textAlign: 'right', alignSelf: 'flex-end', marginTop: 4 }}>{name}</h6>
     </div>
   );
 };
