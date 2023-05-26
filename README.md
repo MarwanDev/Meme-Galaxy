@@ -55,7 +55,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-### Coming Soon
+### Click <a href="https://6470c6eb74d6e20a9ec0cd41--zippy-cannoli-6cdea8.netlify.app/">here</a> to preview the live demo 
 
 <!-- GETTING STARTED -->
 
