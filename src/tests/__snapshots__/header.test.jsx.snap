@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > renders header correctly 1`] = `
+<div
+  className="header-container"
+>
+  <h2
+    style={
+      {
+        "backgroundColor": "#4369b2",
+        "color": "#fff",
+        "marginBottom": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    memes stat
+  </h2>
+  <ul
+    className="info-container"
+  >
+    <li
+      className="info"
+    >
+      <h4>
+        0
+      </h4>
+      <h3>
+        memes
+      </h3>
+    </li>
+    <li
+      className="info"
+    >
+      <h4>
+        -Infinity
+      </h4>
+      <h3>
+        categories
+      </h3>
+    </li>
+    <li
+      className="info"
+    >
+      <h4>
+        -Infinity
+      </h4>
+      <h3>
+        authors
+      </h3>
+    </li>
+  </ul>
+</div>
+`;

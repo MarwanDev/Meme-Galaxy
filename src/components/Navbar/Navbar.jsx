@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
-
 import React from 'react';
-import ReactDOM from 'react-dom';
 import MenuIcon from "@mui/icons-material/Menu";
 import MicIcon from "@mui/icons-material/Mic";
 import SettingsIcon from "@mui/icons-material/Settings";

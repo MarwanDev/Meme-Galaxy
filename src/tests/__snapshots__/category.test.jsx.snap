@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Category > renders each category correctly 1`] = `
+<div
+  href=""
+  id={null}
+  onClick=""
+  style={
+    {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "textDecoration": "none",
+    }
+  }
+>
+  <a
+    className=""
+    href="/details"
+    id={null}
+    onClick={[Function]}
+    style={
+      {
+        "fontSize": 60,
+        "textDecoration": "none",
+      }
+    }
+  />
+  <h6
+    style={
+      {
+        "color": "#fff",
+        "textDecoration": "none",
+      }
+    }
+  />
+</div>
+`;
