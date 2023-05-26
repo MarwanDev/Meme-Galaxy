@@ -1,0 +1,220 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Categories > renders categories correctly 1`] = `
+<div
+  className="categories-container"
+>
+  <ul
+    style={
+      {
+        "display": "flex",
+        "flexWrap": "wrap",
+        "gap": 70,
+        "justifyContent": "space-between",
+        "listStyleType": "none",
+      }
+    }
+  >
+    <li>
+      <div
+        href=""
+        id={2}
+        onClick={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <a
+          className=""
+          href="/details"
+          id={2}
+          onClick={[Function]}
+          style={
+            {
+              "fontSize": 60,
+              "textDecoration": "none",
+            }
+          }
+        >
+          🤣
+        </a>
+        <h6
+          style={
+            {
+              "color": "#fff",
+              "textDecoration": "none",
+            }
+          }
+        >
+          Mr Bala7
+        </h6>
+      </div>
+    </li>
+    <li>
+      <div
+        href=""
+        id={3}
+        onClick={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <a
+          className=""
+          href="/details"
+          id={3}
+          onClick={[Function]}
+          style={
+            {
+              "fontSize": 60,
+              "textDecoration": "none",
+            }
+          }
+        >
+          🤡
+        </a>
+        <h6
+          style={
+            {
+              "color": "#fff",
+              "textDecoration": "none",
+            }
+          }
+        >
+          Mr Betengana
+        </h6>
+      </div>
+    </li>
+    <li>
+      <div
+        href=""
+        id={4}
+        onClick={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <a
+          className=""
+          href="/details"
+          id={4}
+          onClick={[Function]}
+          style={
+            {
+              "fontSize": 60,
+              "textDecoration": "none",
+            }
+          }
+        >
+          😅
+        </a>
+        <h6
+          style={
+            {
+              "color": "#fff",
+              "textDecoration": "none",
+            }
+          }
+        >
+          Mr Basterma
+        </h6>
+      </div>
+    </li>
+    <li>
+      <div
+        href=""
+        id={5}
+        onClick={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <a
+          className=""
+          href="/details"
+          id={5}
+          onClick={[Function]}
+          style={
+            {
+              "fontSize": 60,
+              "textDecoration": "none",
+            }
+          }
+        >
+          😎
+        </a>
+        <h6
+          style={
+            {
+              "color": "#fff",
+              "textDecoration": "none",
+            }
+          }
+        >
+          Mrs Bala7
+        </h6>
+      </div>
+    </li>
+    <li>
+      <div
+        href=""
+        id={0}
+        onClick={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <a
+          className=""
+          href="/details"
+          id={0}
+          onClick={[Function]}
+          style={
+            {
+              "fontSize": 60,
+              "textDecoration": "none",
+            }
+          }
+        >
+          🤑  
+        </a>
+        <h6
+          style={
+            {
+              "color": "#fff",
+              "textDecoration": "none",
+            }
+          }
+        >
+          All
+        </h6>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

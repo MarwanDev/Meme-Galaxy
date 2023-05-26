@@ -3,6 +3,7 @@
   background-color: #4369b2;
   border-top: 1px solid #4369b2;
   padding-top: 50px;
+  height: 30vh;
 }
 
 .info-container {
@@ -10,6 +11,7 @@
   justify-content: space-between;
   list-style-type: none;
   background-color: #4369b2;
+  margin-top: 50px;
 }
 
 .info {
@@ -19,11 +21,11 @@
   h4 {
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     background-color: #4369b2;
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 17px;
   }
 }

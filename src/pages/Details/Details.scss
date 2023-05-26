@@ -6,6 +6,7 @@
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  height: 30vh;
 }
 
 .cards-container {
@@ -28,6 +29,10 @@
   &:nth-child(4n - 1),
   &:nth-child(4n - 2) {
     background-color: #4063a5;
+  }
+
+  @media (min-width: 768px) {
+    width: calc(25% - 0px);
   }
 
   img {

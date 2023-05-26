@@ -18,11 +18,6 @@ const initialState = {
   error: null,
   categoriesArray: [
     {
-      itemId: 1,
-      name: "Mr Basterma",
-      thumbnail: "😂",
-    },
-    {
       itemId: 2,
       name: "Mr Bala7",
       thumbnail: "🤣",
@@ -34,7 +29,7 @@ const initialState = {
     },
     {
       itemId: 4,
-      name: "Mrs Basterma",
+      name: "Mr Basterma",
       thumbnail: "😅",
     },
     {
@@ -44,7 +39,7 @@ const initialState = {
     },
     {
       itemId: 0,
-      name: "All Memes",
+      name: "All",
       thumbnail: "🤑  ",
     },
   ],

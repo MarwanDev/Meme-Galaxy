@@ -39,7 +39,7 @@ const Details = () => {
         <h5 style={{ fontSize: 80, textDecoration: 'none', backgroundColor: '#5288e2' }}>{headerinfo[0].thumbnail}</h5>
         <div style={{ display: "flex", flexDirection: "column", alignItems: 'center', justifyContent: 'center', backgroundColor: '#5288e2', color: '#fff' }}>
           <p style={{ backgroundColor: '#5288e2', fontSize: 20, marginLeft: 12 }}>{headerinfo[0].name}</p>
-          <p style={{ backgroundColor: '#5288e2'}}>{filteredMemes.length}</p>
+          <p style={{ backgroundColor: '#5288e2'}}>{filteredMemes.length} memes</p>
         </div>
       </div>
       <div className="cards-container">
