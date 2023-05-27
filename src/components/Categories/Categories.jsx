@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
-import ReactDOM from "react-dom";
 import "./Categories.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { changeBox } from "../../redux/memesSlice/memesSlice";

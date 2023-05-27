@@ -1,5 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
 import "./Header.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
