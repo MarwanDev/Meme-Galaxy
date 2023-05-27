@@ -1,8 +1,6 @@
-// import { useSelector } from "react-redux";
 import reducer, { changeBox } from "../redux/memesSlice/memesSlice";
 import { it, expect, describe } from "vitest";
 
-// const box = useSelector((state) => state.meme.box);
 describe("redux", () => {
   it("changes box value", () => {
     const state = {
