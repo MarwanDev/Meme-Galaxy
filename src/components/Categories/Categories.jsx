@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import ReactDOM from 'react-dom';
 import "./Categories.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { changeBox } from "../../redux/memesSlice/memesSlice";
@@ -20,7 +17,8 @@ const Categories = () => {
           justifyContent: "space-between",
           listStyleType: "none",
           flexWrap: "wrap",
-          gap: 70,
+          gap: 40,
+          paddingTop: 10,
         }}
       >
         {categoriesArray.map((category) => (
